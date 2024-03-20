@@ -1,0 +1,25 @@
+.projects {
+  margin-top: 5em;
+  text-align: center;
+}
+.projects_title {
+  margin-bottom: 2em;
+}
+.projects_grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
+}
+
+.card_list {
+  list-style-type: none; /*globalno*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1.2em 0;
+}
+.card_link {
+  text-decoration: none;
+}
