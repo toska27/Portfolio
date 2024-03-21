@@ -3,17 +3,18 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <section className="skills">
-      <h2 className="skills_title">SKILLS</h2>
+    <section className="skills section" id="skills">
+      <h2 className="title">skills</h2>
       <ul className="skills_list">
-        <li className="skills_list-item">html</li>
-        <li className="skills_list-item">css</li>
-        <li className="skills_list-item">php</li>
-        <li className="skills_list-item">javascript</li>
-        <li className="skills_list-item">react</li>
-        <li className="skills_list-item">sass</li>
-        <li className="skills_list-item">git</li>
-        <li className="skills_list-item">mysql</li>
+        <li className="skills_list-item">HTML</li>
+        <li className="skills_list-item">CSS</li>
+        <li className="skills_list-item">PHP</li>
+        <li className="skills_list-item">JavaScript</li>
+        <li className="skills_list-item">React</li>
+        <li className="skills_list-item">Laravel</li>
+        <li className="skills_list-item">MySQL</li>
+        <li className="skills_list-item">Sass</li>
+        <li className="skills_list-item">Git</li>
       </ul>
     </section>
   );

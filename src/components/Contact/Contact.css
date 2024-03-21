@@ -1,12 +1,4 @@
-.contact {
-  margin-top: 5em;
-  text-align: center;
-}
-.contact_title {
-  margin-bottom: 2em;
-}
 .contact_list {
-  list-style-type: none;
   max-width: 400px;
   width: 95%;
   margin: 0 auto;
@@ -14,6 +6,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.contact_list-item a {
-  text-decoration: none;
+.contact_list-item {
+  border: 1px solid darkgray;
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
