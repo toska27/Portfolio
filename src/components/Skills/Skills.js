@@ -1,4 +1,5 @@
 import React from "react";
+import { skills } from "../../portfolio";
 import "./Skills.css";
 
 const Skills = () => {
@@ -6,15 +7,11 @@ const Skills = () => {
     <section className="skills section" id="skills">
       <h2 className="title">skills</h2>
       <ul className="skills_list">
-        <li className="skills_list-item">HTML</li>
-        <li className="skills_list-item">CSS</li>
-        <li className="skills_list-item">PHP</li>
-        <li className="skills_list-item">JavaScript</li>
-        <li className="skills_list-item">React</li>
-        <li className="skills_list-item">Laravel</li>
-        <li className="skills_list-item">MySQL</li>
-        <li className="skills_list-item">Sass</li>
-        <li className="skills_list-item">Git</li>
+        {skills.map((skill) => (
+          <li key={skill.id} className="skills_list-item">
+            {skill.name}
+          </li>
+        ))}
       </ul>
     </section>
   );

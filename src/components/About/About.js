@@ -1,19 +1,16 @@
 import React from "react";
+import { about } from "../../portfolio";
 import "./About.css";
 
 const About = () => {
+  const { name, role, desc } = about;
   return (
     <section className="about">
       <h1 className="about_name">
-        Hi, I am <span className="name">Nemanja Toskic</span>
+        Hi, I am <span className="name">{name}</span>
       </h1>
-      <h3 className="about_role">Web Developer</h3>
-      <p className="about_desc">
-        Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis
-        perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus
-        modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores
-        minima consectetur.
-      </p>
+      <h3 className="about_role">{role}</h3>
+      <p className="about_desc">{desc}</p>
     </section>
   );
 };
