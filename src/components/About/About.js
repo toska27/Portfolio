@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 import { about } from "../../portfolio";
 import "./About.css";
 

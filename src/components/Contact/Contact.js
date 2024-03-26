@@ -1,5 +1,5 @@
 import React from "react";
-import { contact } from "../../portfolio";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 import "./Contact.css";
 
 const Contact = () => {
@@ -7,13 +7,34 @@ const Contact = () => {
     <section className="contact section" id="contact">
       <h2 className="title">contact</h2>
       <ul className="contact_list">
-        {contact.map((item) => (
-          <li key={item.id} className="contact_list-item">
-            <a href={item.link}>
-              <span typeof="button">{item.name}</span>
-            </a>
-          </li>
-        ))}
+        <li className="contact_list-item">
+          <a href="https://www.linkedin.com/in/nemanja-toskic-543a34276/">
+            <span typeof="button">
+              <FaLinkedin />
+            </span>
+          </a>
+        </li>
+        <li className="contact_list-item">
+          <a href="https://github.com/toska27">
+            <span typeof="button">
+              <FaGithub />
+            </span>
+          </a>
+        </li>
+        <li className="contact_list-item">
+          <a href="https://www.instagram.com/toskic_n/">
+            <span typeof="button">
+              <FaInstagram />
+            </span>
+          </a>
+        </li>
+        <li className="contact_list-item">
+          <a href="mailto:nemanjatoskic58@gmail.com">
+            <span typeof="button">
+              <FaEnvelope />
+            </span>
+          </a>
+        </li>
       </ul>
     </section>
   );

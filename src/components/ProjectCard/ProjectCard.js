@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 import "./ProjectCard.css";
 
 const ProjectCard = ({ project }) => {
@@ -14,7 +15,7 @@ const ProjectCard = ({ project }) => {
         ))}
       </ul>
       <a href={project.link} className="card_link">
-        link to github
+        <FaGithub />
       </a>
     </div>
   );

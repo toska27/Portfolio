@@ -1,10 +1,11 @@
 .header {
   height: 8em;
-  max-width: 1100px;
-  width: 95%;
+  position: relative;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  background-color: beige;
 }
 nav {
   width: 300px;
@@ -16,4 +17,26 @@ nav {
 }
 .link {
   font-size: 1.2rem;
+}
+
+/* wavey background */
+.custom-shape-divider-bottom-1711465170 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711465170 svg {
+  position: relative;
+  display: block;
+  width: calc(114% + 1.3px);
+  height: 76px;
+}
+
+.custom-shape-divider-bottom-1711465170 .shape-fill {
+  fill: rgb(249, 249, 239);
 }
