@@ -10,4 +10,19 @@
   border: 1px solid darkgray;
   padding: 0.5rem;
   font-size: 1.5rem;
+  background-color: rgb(247, 247, 245);
+}
+.contact_list-item_dark {
+  border: 1px solid rgb(231, 230, 230);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: rgb(61, 61, 61);
+}
+.contact_link {
+  color: rgb(51, 93, 191);
+  font-size: 2.5rem;
+}
+.contact_link_dark {
+  color: rgb(167, 181, 215);
+  font-size: 2.5rem;
 }

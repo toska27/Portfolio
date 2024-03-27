@@ -2,9 +2,9 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, theme }) => {
   return (
-    <div className="card">
+    <div className={theme === "light" ? "card" : "card_dark"}>
       <h3 className="card_title">{project.title}</h3>
       <p className="card_desc">{project.desc}</p>
       <ul className="card_list">

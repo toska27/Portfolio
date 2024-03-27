@@ -1,0 +1,23 @@
+nav {
+  width: 300px;
+  margin-top: 15px;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  font-size: 1.2rem;
+  color: black;
+}
+.link_dark {
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 500px) {
+  .link_dark,
+  .link {
+    font-size: 1rem;
+  }
+}

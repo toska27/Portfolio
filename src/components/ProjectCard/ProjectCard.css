@@ -2,7 +2,13 @@
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  background-color: antiquewhite;
+  background-color: rgb(240, 233, 223);
+}
+.card_dark {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(46, 43, 37);
 }
 .card_desc {
   margin-top: 1em;
@@ -18,4 +24,7 @@
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
+}
+.card_link {
+  font-size: 1.5rem;
 }

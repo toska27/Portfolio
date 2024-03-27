@@ -1,5 +1,26 @@
 .footer {
   margin-top: 5em;
   text-align: center;
-  background-color: beige;
+  background-color: rgb(240, 240, 205);
+  color: black;
+  padding-top: 1.5em;
+  padding-bottom: 0.1em;
+}
+.footer_dark {
+  margin-top: 5em;
+  text-align: center;
+  color: azure;
+  background-color: rgb(100, 100, 89);
+  padding-top: 1.5em;
+  padding-bottom: 0.1em;
+}
+.arrow {
+  margin-top: 20em;
+  color: rgb(7, 55, 94);
+  font-size: 1.5rem;
+}
+.arrow_dark {
+  margin-top: 20em;
+  color: rgb(149, 239, 239);
+  font-size: 1.5rem;
 }
