@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className={`${appTheme}`}>
       <Header onChange={handleAppThemeChange} />
-      <About />
+      <About theme={appTheme} />
       <Projects theme={appTheme} />
       <Skills theme={appTheme} />
       <Contact theme={appTheme} />

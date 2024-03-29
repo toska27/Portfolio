@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+
 const about = {
   name: "Nemanja Toskic",
   role: "Web Developer",
@@ -108,22 +110,22 @@ const contact = [
   {
     id: 1,
     link: "https://www.linkedin.com/in/nemanja-toskic-543a34276/",
-    name: "linkedin",
+    icon: <FaLinkedin />,
   },
   {
     id: 2,
     link: "https://github.com/toska27",
-    name: "github",
+    icon: <FaGithub />,
   },
   {
     id: 3,
     link: "https://www.instagram.com/toskic_n/",
-    name: "instagram",
+    icon: <FaInstagram />,
   },
   {
     id: 4,
     link: "mailto:nemanjatoskic58@gmail.com",
-    name: "email",
+    icon: <FaEnvelope />,
   },
 ];
 
