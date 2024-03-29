@@ -14,7 +14,10 @@ const ProjectCard = ({ project, theme }) => {
           </li>
         ))}
       </ul>
-      <a href={project.link} className="card_link">
+      <a
+        href={project.link}
+        className={theme === "light" ? "card_link" : "card_link_dark"}
+      >
         <FaGithub />
       </a>
     </div>

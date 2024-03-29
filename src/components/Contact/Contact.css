@@ -1,3 +1,9 @@
+.contact {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2em;
+  transition: all 0.3s ease;
+}
 .contact_list {
   max-width: 400px;
   width: 95%;
@@ -5,24 +11,42 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0;
 }
 .contact_list-item {
-  border: 1px solid darkgray;
+  border: 1px solid transparent;
   padding: 0.5rem;
   font-size: 1.5rem;
   background-color: rgb(247, 247, 245);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .contact_list-item_dark {
-  border: 1px solid rgb(231, 230, 230);
+  border: 1px solid transparent;
   padding: 0.5rem;
   font-size: 1.5rem;
   background-color: rgb(61, 61, 61);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
 }
 .contact_link {
   color: rgb(51, 93, 191);
   font-size: 2.5rem;
 }
 .contact_link_dark {
-  color: rgb(167, 181, 215);
+  color: rgb(216, 220, 230);
   font-size: 2.5rem;
+}
+
+.contact:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.contact_list-item:hover {
+  transform: translateY(5px);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.contact_list-item_dark:hover {
+  transform: translateY(5px);
+  border-color: rgba(255, 255, 255, 0.1);
 }

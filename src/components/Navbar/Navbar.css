@@ -1,18 +1,28 @@
 nav {
   width: 300px;
-  margin-top: 15px;
+  padding: 1em;
 }
 .nav_list {
   display: flex;
   justify-content: space-between;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .link {
   font-size: 1.2rem;
   color: black;
+  padding: 0.5em;
 }
 .link_dark {
   font-size: 1.2rem;
   color: whitesmoke;
+  padding: 0.5em;
+}
+
+.link:hover {
+  color: dodgerblue;
+}
+.link_dark:hover {
+  color: rgb(9, 247, 255);
 }
 
 @media screen and (max-width: 500px) {
