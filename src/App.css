@@ -1,0 +1,19 @@
+.light {
+  background-color: rgb(246, 246, 228);
+}
+.dark {
+  background-color: rgb(74, 74, 73);
+  color: whitesmoke;
+}
+.title {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section {
+  margin-top: 5em;
+}
+a:hover {
+  color: blue;
+}
