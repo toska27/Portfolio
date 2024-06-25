@@ -65,6 +65,40 @@ const projects = [
     ],
     link: "https://github.com/toska27/Projects/tree/main/E-commerce%20product%20page",
   },
+  {
+    id: 6,
+    title: "Food recipes",
+    desc: "An application that can be used to view various food recipes.",
+    stack: [
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "React" },
+    ],
+    link: "https://github.com/toska27/Food_recipes",
+  },
+  {
+    id: 7,
+    title: "Weather app",
+    desc: "An application with which we can check the weather forecast in cities around the world.",
+    stack: [
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "React" },
+    ],
+    link: "https://github.com/toska27/Weather_app",
+  },
+  {
+    id: 8,
+    title: "Blogs",
+    desc: "An application for posting blogs, viewing blogs and profiles of other users.",
+    stack: [
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS(Bootstrap)" },
+      { id: 3, name: "PHP" },
+      { id: 4, name: "MySQL" },
+    ],
+    link: "https://github.com/toska27/Blogs",
+  },
 ];
 
 const skills = [
